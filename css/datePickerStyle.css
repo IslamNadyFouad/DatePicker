@@ -1,0 +1,84 @@
+.contOfInp{
+     margin: 200px;
+     width: 200px;
+     height: 40px;
+     
+     cursor: pointer;
+     border: solid 1px rgb(230,20,230);
+     border-radius: 5px;
+         border-color: #83adde;
+    color: #063d7d;
+        position: relative;
+}
+.dateInp{
+   border-style: none;
+    height: 15px;
+    float: right;
+        padding-top: 13px;
+        padding-right: 10px;
+    padding-bottom: 13px;
+    
+    
+}
+.dateImage{
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.dateDetails{
+    width: 230px;
+    height: auto;
+    top:42px;
+        position: absolute;
+  background-color: #FFF;
+  padding: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  display: none;
+}
+.headOfDate{
+    
+    text-align: center;
+}
+.dateImage1{
+    width: 20px;
+    height: 20px;
+}
+.back1{
+     -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  float: left;
+  cursor:pointer;
+}
+.back2{
+   float: right;
+}
+.titleOfDate{
+    margin-top: 10px;
+}
+.listOfDay{
+      margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 11px;
+}
+.listOfDay li{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+.tableOfDate{
+    margin-top: 10px;
+}
+.tableOfDate .td{
+    width: 30px;
+    text-align: center;
+    color: blue;
+}
+.tableOfDate .tdNone{
+    
+    text-align: center;
+    color: red;
+}
+.tableOfDate .tdCurrent{
+    color: green;
+    background-color: #aa0055;
+}
